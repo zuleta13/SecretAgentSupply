@@ -66,3 +66,21 @@ main {
   line-height: 2.25rem;
   padding-left: 3rem;
 }
+
+/* NAVIGATION STYLES */
+nav {
+  background-color: firebrick;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
