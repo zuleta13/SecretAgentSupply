@@ -132,3 +132,10 @@ nav a {
 .info-piece .value {
   line-height: 1.30rem;
 }
+
+/* FOOTER */
+footer {
+  height: 5rem;
+  display: flex;
+  align-items: center;
+}
