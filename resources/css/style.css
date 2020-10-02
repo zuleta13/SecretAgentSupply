@@ -100,14 +100,13 @@ nav a {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 
 .item img {
   width: 9rem;
-  height: 9rem;
-  padding: 2rem 0;
-  margin: 0 auto;
+  height: auto;
+  margin: auto auto;
 }
 
 .item .description {
