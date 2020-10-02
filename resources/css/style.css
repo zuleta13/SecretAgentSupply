@@ -35,3 +35,34 @@ html {
   display: flex;
   align-items: center;
 }
+
+/* MAIN STYLES */
+main {
+  height: 28rem;
+  background-image: url("../media/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.highlight {
+  position: relative;
+  top: 9rem;
+  width: 26rem;
+  height: 10rem;
+}
+
+.highlight h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+  padding-left: 3rem;
+}
+
+.highlight h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.25rem;
+  padding-left: 3rem;
+}
