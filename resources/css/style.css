@@ -23,3 +23,15 @@ html {
 }
 
 /* HEADER STYLES */
+.logo img {
+  width: auto;
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right:1rem;
+}
+
+.logo {
+  height: 2.32rem;
+  display: flex;
+  align-items: center;
+}
