@@ -112,3 +112,23 @@ nav a {
 .item .description {
   padding: 0.5rem 0;
 }
+
+/* STORE */
+.info {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-piece {
+  width: 35%;
+}
+
+.info-piece .key {
+  padding: 1rem 2rem;
+}
+
+.info-piece .value {
+  line-height: 1.30rem;
+}
