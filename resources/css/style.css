@@ -77,12 +77,16 @@ nav {
 
 nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 nav a {
   color: white;
   text-decoration: none;
+}
+
+.mid-screen {
+  display: none;
 }
 
 /* SAMPLE ITEMS */
@@ -138,4 +142,34 @@ footer {
   height: 5rem;
   display: flex;
   align-items: center;
+}
+
+@media only screen and (max-width: 960px) {
+  /* UNIVERSAL */
+  .container {
+    width: 100%;
+  }
+
+  /* NAVIGATION */
+  nav li {
+    display: none;
+  }
+
+  .mid-screen {
+    display: inline;
+  }
+
+  /* SAMPLE ITEMS */
+  .glasses {
+    display: none;
+  }
+
+  .item {
+    width: 47%;
+  }
+
+  /* FOOTER */
+  .copyright p {
+    margin-left: 0.5rem;
+  }
 }
